@@ -59,3 +59,9 @@ query = "Summarize revenue growth and key financial metrics"
 summary = generate_summary(query)
 
 print(f"Here is the Summary: {summary}")
+
+
+query = "Give me insight into Commitments and Contingencies"
+summary = generate_summary(query)
+
+print(f"Commitments and Contingencies: {summary}")
