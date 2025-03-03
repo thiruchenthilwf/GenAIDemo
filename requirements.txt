@@ -1,0 +1,6 @@
+google-generativeai
+sentence-transformers
+faiss-cpu
+pandas
+PyMuPDF
+tiktoken
