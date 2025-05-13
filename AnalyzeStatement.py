@@ -65,4 +65,3 @@ query = "Give me insight into Commitments and Contingencies"
 summary = generate_summary(query)
 
 print(f"Commitments and Contingencies: {summary}")
-
