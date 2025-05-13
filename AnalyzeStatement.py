@@ -5,7 +5,7 @@ import faiss
 from sentence_transformers import SentenceTransformer
 import google.generativeai as genai
 
-genai.configure(api_key="your_api_key")
+genai.configure(api_key="AIzaSyCrN7qZu72ZFK_LEM61DQrpfrlq_xP9v6Y")
 
 PDF_PATH='./data/nvdia_10q.pdf'
 
@@ -59,3 +59,10 @@ query = "Summarize revenue growth and key financial metrics"
 summary = generate_summary(query)
 
 print(f"Here is the Summary: {summary}")
+
+
+query = "Give me insight into Commitments and Contingencies"
+summary = generate_summary(query)
+
+print(f"Commitments and Contingencies: {summary}")
+
