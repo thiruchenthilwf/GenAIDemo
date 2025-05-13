@@ -5,7 +5,7 @@ import faiss
 from sentence_transformers import SentenceTransformer
 import google.generativeai as genai
 
-genai.configure(api_key="AIzaSyCrN7qZu72ZFK_LEM61DQrpfrlq_xP9v6Y")
+genai.configure(api_key="xxxxx")
 
 PDF_PATH='./data/nvdia_10q.pdf'
 
